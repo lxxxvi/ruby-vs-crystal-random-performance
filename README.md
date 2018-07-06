@@ -1,3 +1,5 @@
+See [https://github.com/crystal-lang/crystal/issues/6340]()
+
 # Is Crystal slower than Ruby in generating randoms?
 
 While playing around with Crystal I noticed that Ruby is quite faster than Crystal in generating randoms.
@@ -15,7 +17,7 @@ Is this expected? Are Crystal randoms more secure and thus more expensive?
 | `rand`          |    10M |         ~ 43.8s |       ~ 6.1s |
 | `random_bytes`  |    10M |         ~ 47.8s |       ~ 5.8s |
 
-(In Crystal I used `Random`, in Ruby I used `SecureRandom`.)
+(In Crystal I used `Random`, in Ruby I used `SecureRandom`)
 
 ```shell
 $ crystal -v
