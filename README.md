@@ -29,3 +29,9 @@ Default target: x86_64-apple-macosx
 $ ruby -v
 ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17]
 ```
+
+Environment
+
+* macOS High Sierra 10.13.5 (17F77)
+* 1.4 GHz Intel Core i7
+* 8 GB 1867 MHz LPDDR3
