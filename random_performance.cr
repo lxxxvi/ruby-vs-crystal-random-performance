@@ -38,7 +38,6 @@ class RandomPerformance
   end
 end
 
-# require "secure_random"
 puts RandomPerformance.settings
 puts "#hex            : #{RandomPerformance.new.hex}"
 puts "#base64         : #{RandomPerformance.new.base64}"
