@@ -9,7 +9,7 @@ I did the same in Ruby and found that Ruby is significantly faster than Crystal.
 Is this expected? Are Crystal randoms more secure and thus more expensive?
 
 | Generator       | Amount | Time in Crystal | Time in Ruby |
-|---------------- |--------|-----------------|--------------|
+|:--------------- |-------:|----------------:|-------------:|
 | `hex`           |    10M |         ~ 47.4s |       ~ 8.8s |
 | `base64`        |    10M |         ~ 52.1s |      ~ 10.6s |
 | `rand`          |    10M |         ~ 43.8s |       ~ 6.1s |
