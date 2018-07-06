@@ -2,9 +2,9 @@
 
 While playing around with Crystal I noticed that Ruby is quite faster than Crystal in generating randoms.
 
-I wrote a script that performs 10 million randoms (`hex`, `base64`, `rand` and `random_bytes`) and measures the times.
+I wrote a Crystal script that performs 10 million randoms (`hex`, `base64`, `rand` and `random_bytes`) and measures the times.
 
-I did the same in Ruby and found that Ruby is significantly faster than Crystal.
+I did the same in Ruby and found that Ruby script is significantly faster than Crystal.
 
 Is this expected? Are Crystal randoms more secure and thus more expensive?
 
